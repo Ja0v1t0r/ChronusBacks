@@ -314,6 +314,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 52%, rgba(255,255,255,0.70
 
 .TituloFormulario{
     font-size: 35px;
+    margin: 0;
 }
 
 .NomeEmail{
@@ -383,6 +384,8 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 52%, rgba(255,255,255,0.70
         align-items: center;
         border-radius: 00px 0px 0px 20px;
         box-shadow: 0 0px 10px  rgba(141, 141, 141, 0.082);
+        right: 0px;
+        top: 0px;
         
     }
 
@@ -396,4 +399,92 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 52%, rgba(255,255,255,0.70
         width: 15px;
         height: 15px;
     }
+
+    .World1{
+        display: none;
+        
+    }
+    .World2{
+        display: none;
+        
+    }
+    .World{
+        display: none;
+    }
+    .ContainerCorpo{
+        width: 100%;
+    }
+    .Conteudo{
+        display: flex;
+        justify-content: baseline;
+    }
+    #Icone{
+        width: 50px;
+    }
+    .Fume{
+        display: none;
+    }
+
+
+    .QuemSomos{
+
+        display: block;
+    }
+    .TextoQuemSomos{
+        width: 100%;
+    }
+    .BemVindo{
+        width: 100%;
+        text-align: center;
+    }
+    .TextosContato{
+        margin-top: 0px;
+    }
+    .swiper{
+        width: 400px;
+    }
+
+    .NoteBook{
+        display: none;
+    }
+    .TireDuvidas{
+        display: none;
+    }
+
+    .EntreEmContato{
+        display: none;
+    }
+    #Contato{
+        margin-top: 600px;
+        
+    }
+    .NomeCard{
+        margin-top: 10px;
+    }
+    .Contato2{
+        display: none;
+    }
+    .QuemNos{
+        font-size: 50px;
+        
+    }
+    .Somos{
+        font-size: 50px;
+        text-align: start;
+        width: 210px;
+    }
+    .Contato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .EnvieSuaMensagem{
+        width: 100%;
+        
+    }
+    .Formulario{
+        margin-top: 200px;
+    }
+
 }
